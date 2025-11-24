@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;    
+
+:root {
+  --radius: 0.625rem;
+
+  /* BRAND ORANGE PALETTE */
+  --background: #FEFEFE;
+  --foreground: #1A1D29;
+
+  --primary: #FF6B35;
+  --primary-foreground: #FFFFFF;
+
+  --secondary: #FF8F65;
+  --secondary-foreground: #FFFFFF;
+
+  --accent: #FFB195;
+  --accent-foreground: #1A1D29;
+}
