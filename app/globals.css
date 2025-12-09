@@ -1,20 +1,53 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;    
+@tailwind utilities;
 
 :root {
-  --radius: 0.625rem;
+  /* Border Radius */
+  --radius: 0.75rem;
+  --radius-sm: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
 
-  /* BRAND ORANGE PALETTE */
-  --background: #FEFEFE;
-  --foreground: #1A1D29;
+  /* ===== DARK GLASSMORPHISM THEME ===== */
 
+  /* Background */
+  --background: #0A0A0F;
+  --background-secondary: #12121A;
+  --background-tertiary: #1A1A24;
+
+  /* Foreground/Text */
+  --foreground: #FFFFFF;
+  --foreground-secondary: #A1A1AA;
+  --foreground-muted: #71717A;
+
+  /* Primary - Bold Orange */
   --primary: #FF6B35;
+  --primary-light: #FF8F65;
+  --primary-dark: #E55A2B;
   --primary-foreground: #FFFFFF;
 
-  --secondary: #FF8F65;
-  --secondary-foreground: #FFFFFF;
+  /* Accent - Cyan */
+  --accent: #00D9FF;
+  --accent-light: #5CE5FF;
+  --accent-dark: #00B8D9;
+  --accent-foreground: #0A0A0F;
 
-  --accent: #FFB195;
-  --accent-foreground: #1A1D29;
+  /* Surface - Glassmorphism */
+  --surface: rgba(255, 255, 255, 0.05);
+  --surface-hover: rgba(255, 255, 255, 0.08);
+  --surface-active: rgba(255, 255, 255, 0.12);
+  --surface-border: rgba(255, 255, 255, 0.1);
+
+  /* Status Colors */
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --error: #EF4444;
+  --info: #3B82F6;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 20px rgba(255, 107, 53, 0.3);
 }
